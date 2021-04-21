@@ -329,21 +329,3 @@ scene.setBackgroundImage(img`
     8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
     8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
     `)
-let mySprite3 = sprites.create(img`
-    . . . . . . . c c c a c . . . . 
-    . . c c b b b a c a a a c . . . 
-    . c c a b a c b a a a b c c . . 
-    . c a b c f f f b a b b b a . . 
-    . c a c f f f 8 a b b b b b a . 
-    . c a 8 f f 8 c a b b b b b a . 
-    c c c a c c c c a b c f a b c c 
-    c c a a a c c c a c f f c b b a 
-    c c a b 6 a c c a f f c c b b a 
-    c a b c 8 6 c c a a a b b c b c 
-    c a c f f a c c a f a c c c b . 
-    c a 8 f c c b a f f c b c c c . 
-    . c b c c c c b f c a b b a c . 
-    . . a b b b b b b b b b b b c . 
-    . . . c c c c b b b b b c c . . 
-    . . . . . . . . c b b c . . . . 
-    `, SpriteKind.Player)
