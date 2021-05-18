@@ -2,7 +2,8 @@
     "name": "sfondo",
     "description": "",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "animation": "*"
     },
     "files": [
         "main.blocks",
@@ -18,7 +19,7 @@
         "test.ts"
     ],
     "targetVersions": {
-        "target": "1.4.35",
+        "target": "1.4.41",
         "targetId": "arcade"
     },
     "supportedTargets": [
